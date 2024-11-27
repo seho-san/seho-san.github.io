@@ -1,3 +1,10 @@
+---
+title: "yolov5 돌려보기 - 웹캠, 유튜브 링크"
+date: 2024-11-24 16:00:00 +/- TTTT
+categories: [졸업작품, yolov5]
+tags: [yolov5]		# TAG는 반드시 소문자로 이루어져야함!
+---
+
 # requirements import해서 데이터셋 불러오기
 
 
