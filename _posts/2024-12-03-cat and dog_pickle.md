@@ -1,18 +1,11 @@
 ---
 title:  "cat and dog - 실제 동작작"
-excerpt: "전에 training 시킨 모델을 가지고 실제로 이미지를 구별하는 부분"
-
-categories:
-  - 머신러닝
-tags:
-  - [Blog, jekyll, Github, Git, 머신러닝]
-
-toc: true
-toc_sticky: true
- 
-date: 2024-11-30
+categories: [머신러닝]
+tags: [Blog, jekyll, Github, Git, 머신러닝]
+date: 2024-12-03
 last_modified_at: 2024-12-14
 ---
+# 전에 training 시킨 모델을 가지고 실제로 이미지를 구별하는 부분
 ```python
 import pickle
 ```

@@ -1,3 +1,9 @@
+---
+title:  "roboflow 기반 블랙아이스 판별 모델"
+categories: [머신러닝, 졸업작품]
+tags: [Blog, jekyll, Github, Git, 머신러닝, jupyter]
+date: 2025-01-30
+---
 # gpu 활성화
 gpu를 사용해서 ML이 빠르게 돌아가기 때문에 반드시 gpu로 동작시켜야 한다.
 

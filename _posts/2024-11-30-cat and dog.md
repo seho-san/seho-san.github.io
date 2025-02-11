@@ -1,17 +1,8 @@
 ---
-title:  "cat and dog"
-excerpt: "머신러닝 기초 - cat and dog 모델 학습"
-
-categories:
-  - cat and dog
-tags:
-  - [Blog, jekyll, Github, Git, cat and dog]
-
-toc: true
-toc_sticky: true
- 
-date: 2024-11-30
-last_modified_at: 2024-12-14
+title: "cat and dog ML 돌려보기"
+date: 2024-11-30 16:00:00 +/- TTTT
+categories: [졸업작품, cat and dog]
+tags: [yolov5, cat and dog, ml]		# TAG는 반드시 소문자로 이루어져야함!
 ---
 # https://www.youtube.com/watch?v=FLf5qmSOkwU&ab_channel=BalajiSrinivasan
 
