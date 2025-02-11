@@ -1,0 +1,151 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://seho-san.github.io/</id>
+  <title>김세호의 git blog</title>
+  <subtitle>"정보통신공학부 학생의 코딩일기기"</subtitle>
+  <updated>2025-02-11T23:17:23+08:00</updated>
+  <author>
+    <name>KIMSEHO</name>
+    <uri>https://seho-san.github.io/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://seho-san.github.io/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://seho-san.github.io/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 KIMSEHO </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>roboflow 기반 포트홀홀 판별 모델</title>
+    <link href="https://seho-san.github.io/posts/pothole_dataset_jupyter/" rel="alternate" type="text/html" title="roboflow 기반 포트홀홀 판별 모델" />
+    <published>2025-01-30T00:00:00+08:00</published>
+  
+    <updated>2025-01-30T00:00:00+08:00</updated>
+  
+    <id>https://seho-san.github.io/posts/pothole_dataset_jupyter/</id>
+    <content type="text/html" src="https://seho-san.github.io/posts/pothole_dataset_jupyter/" />
+    <author>
+      <name>KIMSEHO</name>
+    </author>
+
+  
+    
+    <category term="머신러닝" />
+    
+    <category term="졸업작품" />
+    
+  
+
+  <summary>gpu 활성화 gpu를 사용해서 ML이 빠르게 돌아가기 때문에 반드시 gpu로 동작시켜야 한다.  cpu대비 약 10배 이상 빠름  is available이 true면 gpu가 활성화 된 것이다. 처음에는 cpu가 로드되지만, epoch가 시작되면 작업관리자에서 gpu에 부하가 걸리기 시작한다.  import torch print(torch.cuda.is_available())  # True가 출력되면 GPU 사용 가능 print(torch.cuda.get_device_name(0))  # GPU 이름 출력 print(f&amp;quot;get device name : {torch.cuda.get_device_name(0)}&amp;quot;) print(f&amp;quot;is available : {torch.cuda.is_available()}...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>roboflow 기반 블랙아이스 판별 모델</title>
+    <link href="https://seho-san.github.io/posts/blackice_dataset_jupyter/" rel="alternate" type="text/html" title="roboflow 기반 블랙아이스 판별 모델" />
+    <published>2025-01-30T00:00:00+08:00</published>
+  
+    <updated>2025-01-30T00:00:00+08:00</updated>
+  
+    <id>https://seho-san.github.io/posts/blackice_dataset_jupyter/</id>
+    <content type="text/html" src="https://seho-san.github.io/posts/blackice_dataset_jupyter/" />
+    <author>
+      <name>KIMSEHO</name>
+    </author>
+
+  
+    
+    <category term="머신러닝" />
+    
+    <category term="졸업작품" />
+    
+  
+
+  <summary>gpu 활성화 gpu를 사용해서 ML이 빠르게 돌아가기 때문에 반드시 gpu로 동작시켜야 한다.  cpu대비 약 10배 이상 빠름  is available이 true면 gpu가 활성화 된 것이다. 처음에는 cpu가 로드되지만, epoch가 시작되면 작업관리자에서 gpu에 부하가 걸리기 시작한다.  import torch print(torch.cuda.is_available())  # True가 출력되면 GPU 사용 가능 print(torch.cuda.get_device_name(0))  # GPU 이름 출력 print(f&amp;quot;get device name : {torch.cuda.get_device_name(0)}&amp;quot;) print(f&amp;quot;is available : {torch.cuda.is_available()}...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>상습결빙구간_csv 파일 뜯어보기</title>
+    <link href="https://seho-san.github.io/posts/%EC%83%81%EC%8A%B5%EA%B2%B0%EB%B9%99%EA%B5%AC%EA%B0%84_csv_%EB%9C%AF%EC%96%B4%EB%B3%B4%EA%B8%B0/" rel="alternate" type="text/html" title="상습결빙구간_csv 파일 뜯어보기" />
+    <published>2024-12-13T00:00:00+08:00</published>
+  
+    <updated>2024-12-14T00:00:00+08:00</updated>
+  
+    <id>https://seho-san.github.io/posts/%EC%83%81%EC%8A%B5%EA%B2%B0%EB%B9%99%EA%B5%AC%EA%B0%84_csv_%EB%9C%AF%EC%96%B4%EB%B3%B4%EA%B8%B0/</id>
+    <content type="text/html" src="https://seho-san.github.io/posts/%EC%83%81%EC%8A%B5%EA%B2%B0%EB%B9%99%EA%B5%AC%EA%B0%84_csv_%EB%9C%AF%EC%96%B4%EB%B3%B4%EA%B8%B0/" />
+    <author>
+      <name>KIMSEHO</name>
+    </author>
+
+  
+    
+    <category term="졸업작품" />
+    
+    <category term="csv" />
+    
+  
+
+  <summary>행정안전부 공공데이터(행정안전부_상습 결빙구간) https://www.data.go.kr/data/15067396/fileData.do  pandas 모듈로 표 읽기  import pandas as pd  # CSV 파일 경로 (간단한 경로 사용) file_path = r&amp;#39;C:/Users/sunny/Desktop/graduation/haengjeonganjeonbu_sangseub-gyeolbinggugan_20231222.csv/haengjeonganjeonbu_sangseub-gyeolbinggugan_20231222.csv&amp;#39;   출력 제한 해제 이거 없으면 중간 데이터들 생략되어 표시됨  pd.set_option(&amp;#39;display.max_rows&amp;#39;, None)  # 모든 행 출력 pd.set_opt...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>cat and dog - 실제 동작작</title>
+    <link href="https://seho-san.github.io/posts/cat-and-dog_pickle/" rel="alternate" type="text/html" title="cat and dog - 실제 동작작" />
+    <published>2024-12-03T00:00:00+08:00</published>
+  
+    <updated>2024-12-14T00:00:00+08:00</updated>
+  
+    <id>https://seho-san.github.io/posts/cat-and-dog_pickle/</id>
+    <content type="text/html" src="https://seho-san.github.io/posts/cat-and-dog_pickle/" />
+    <author>
+      <name>KIMSEHO</name>
+    </author>
+
+  
+    
+    <category term="머신러닝" />
+    
+  
+
+  <summary>전에 training 시킨 모델을 가지고 실제로 이미지를 구별하는 부분 import pickle   X=pickle.load(open(&amp;#39;X.pkl&amp;#39;,&amp;#39;rb&amp;#39;)) y=pickle.load(open(&amp;#39;y.pkl&amp;#39;,&amp;#39;rb&amp;#39;))   X   array([[[[125, 123, 131],          [129, 129, 129],          [115, 125, 142],          ...,          [ 11,  28,  61],          [ 13,  26,  60],          [ 22,  35,  70]],          [[101,  95, 105],          [112, 111, 116],          [ 70,  81, 101],          ...,    ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>GPU로 머신러닝을 돌리기 위한 기초 torch 설정정</title>
+    <link href="https://seho-san.github.io/posts/torch-%EC%84%A4%EC%B9%98/" rel="alternate" type="text/html" title="GPU로 머신러닝을 돌리기 위한 기초 torch 설정정" />
+    <published>2024-11-30T16:00:00+08:00</published>
+  
+    <updated>2024-11-30T16:00:00+08:00</updated>
+  
+    <id>https://seho-san.github.io/posts/torch-%EC%84%A4%EC%B9%98/</id>
+    <content type="text/html" src="https://seho-san.github.io/posts/torch-%EC%84%A4%EC%B9%98/" />
+    <author>
+      <name>KIMSEHO</name>
+    </author>
+
+  
+    
+    <category term="졸업작품" />
+    
+    <category term="머신러닝" />
+    
+  
+
+  <summary>Powershell prompt install 하고 현재 개발환경에서 아래 명령어 복붙  conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia  그 전에 인터넷에서 cuda랑 cudnn 본인 노트북 버전에 맞는 걸로 설치해야 함  현재 환경은 torch 버전 12.4, cudnn 버전 2.5.1  아래 코드로 설치됐는지 확인  import torch print(torch.cuda.is_available())  # True가 출력되면 GPU 사용 가능 print(torch.cuda.get_device_name(0))  # GPU 이름 출력   True NVIDIA GeForce RTX 3060 Laptop G...</summary>
+
+  </entry>
+
+</feed>
+
+
