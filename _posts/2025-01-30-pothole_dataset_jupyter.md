@@ -9,7 +9,7 @@ gpu를 사용해서 ML이 빠르게 돌아가기 때문에 반드시 gpu로 동�
 
 cpu대비 약 10배 이상 빠름
 
-##### is available이 true면 gpu가 활성화 된 것이다.
+### is available이 true면 gpu가 활성화 된 것이다.
 처음에는 cpu가 로드되지만, epoch가 시작되면 작업관리자에서 gpu에 부하가 걸리기 시작한다.
 
 
@@ -28,7 +28,7 @@ print(f"torch version : {torch.__version__}")
     is available : True
     torch version : 2.5.1
     
-
+### 이렇게 뜨면 gpu 활성화된 것임.
 # roboflow 데이터 테스트
 
 ### 디렉토리 마운팅
